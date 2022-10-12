@@ -43,7 +43,8 @@ class TodoAdapter : RecyclerView.Adapter<TodoAdapter.TodoViewHolder>() {
             this.position = position
             todoItemBinding.todoText.text = data.content
 
-            /*checkBox.isChecked = checkData.checked
+            /*checkBox.isChecked = checkData.checked //체크된 box는 checkData에 저장
+             
 
             checkBox.setOnClickListener {
                 checkData.checked = checkBox.isChecked
